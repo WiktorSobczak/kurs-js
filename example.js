@@ -1,25 +1,15 @@
-let bool1 = 5 > 2;
-console.log(bool1);
-
-let bool = 5 > 10;
-console.log(bool);
-
-let bool3 = 1 === 1;
-console.log(bool3);
-
-let bool4 = 1 !== 2;
-console.log(bool4);
-
-let bool5 = "Wiktor" === "Wiktor";
-console.log(bool5);
-
-let isBiggerThan10 = (number) => {
-    if(number > 10) {
-        console.log("Liczba jest wieksza od 10");
-    }
-    else {
-        console.log("Liczba nie jest wieksza od 10");
-    }
+let circleLength = (radius) => {
+    console.log(2 * radius * 3.14 );
 };
 
-isBiggerThan10(11); 
+for(let i = 1; i <= 20; i ++) {
+    circleLength()
+}
+
+let nOddNumbers = (n) => {
+    
+    for(let i = 1; i <= n; i ++) {
+    console.log(2*i - 1)
+}
+};
+nOddNumbers(5)
